@@ -6,7 +6,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "ts-node src/server.ts"
+    "dev": "ts-node src/server.ts",
+    "migrate": "npx prisma migrate dev"
   },
   "devDependencies": {
     "@types/node": "^18.15.12",
