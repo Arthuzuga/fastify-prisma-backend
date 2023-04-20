@@ -1,0 +1,22 @@
+{
+  "name": "backend-prisma",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "João Tavares",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "ts-node src/server.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.12",
+    "prisma": "^4.13.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@prisma/client": "4.13.0",
+    "fastify": "^4.15.0",
+    "zod": "^3.21.4"
+  }
+}
